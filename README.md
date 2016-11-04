@@ -18,9 +18,9 @@ Follow the steps described below.
 Install `bs4, time and requests` packages using `pip` if you already don't have any in your machine.
 
 `pip install bs4`    
-`pip install requests`
-`pip install time`
-`pip install sys`
+`pip install requests`    
+`pip install time`    
+`pip install sys`    
 
 ### 2 - Usage
 
