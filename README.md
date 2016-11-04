@@ -26,7 +26,7 @@ Install `bs4, time and requests` packages using `pip` if you already don't have 
 
 Follow the command line statement-
 
-`python [pyseod.py](https://github.com/jabhij/PY-SEO_Detecter/blob/master/pyseod.py) <Keyword> <URL>`
+`python pyseod.py <Keyword> <URL>`
 
 ## Catch me
 
