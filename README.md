@@ -5,7 +5,7 @@ It tries to find any URL's position against a Keyword on Google (Page Ranking).
 ## Description
 
 - Language: Python
-- Packages: `Requests, bs4, time`
+- Packages: `Requests, bs4, time, sys`
 - Input: `URL & Keyword`
 - Output: `Position or place on Google (Page Ranking)`
 
@@ -20,12 +20,13 @@ Install `bs4, time and requests` packages using `pip` if you already don't have 
 `pip install bs4`    
 `pip install requests`
 `pip install time`
+`pip install sys`
 
 ### 2 - Usage
 
 Follow the command line statement-
 
-`python pyseod.py <Keyword> <URL>`
+`python [pyseod.py](https://github.com/jabhij/PY-SEO_Detecter/blob/master/pyseod.py) <Keyword> <URL>`
 
 ## Catch me
 
