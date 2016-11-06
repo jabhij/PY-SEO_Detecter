@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 import sys
 
+
 """
    User Agents
    ============
@@ -11,6 +12,7 @@ import sys
 """
 headers = {
     'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'}
+
 
 # URL Access & Check
 def check(url, query, start=0):
@@ -35,6 +37,7 @@ def check(url, query, start=0):
         else:
             return [position, start + 1]
     
+   
     # Errors & Messages
     except requests.ConnectionError as e:
         print("OOPS! Connection Error. Make sure you are connected to Internet. \n Technical Details given below.\n")
